@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background: linear-gradient(135deg, #4b0082, #7b2cbf);
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #5a189a, #7b2cbf);
+    padding: 80px 20px;
+}
+
+.filter-btn {
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+/* PRODUCT CARDS */
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.price {
+    color: #7b2cbf;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pagination .page-link {
+    color: #7b2cbf;
+}
+
+.pagination .active .page-link {
+    background-color: #7b2cbf;
+    border-color: #7b2cbf;
+}
