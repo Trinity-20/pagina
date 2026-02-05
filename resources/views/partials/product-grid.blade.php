@@ -9,7 +9,7 @@
         
         // Configurar mensaje de WhatsApp
         $whatsappMessage = rawurlencode("✨ ¡Hola! Me encantó el producto: {$product->name} ✨ (SKU: {$product->sku}). ¿Podrías darme más información? ¡Estoy super emocionado/a! 🎉");
-        $whatsappLink = "https://wa.me/51987654321?text={$whatsappMessage}";
+        $whatsappLink = "https://wa.me/51900456625?text={$whatsappMessage}";
         
         // Preparar datos de imágenes de manera segura
         $imagesData = $product->images->map(function($image) {
